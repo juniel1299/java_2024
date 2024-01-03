@@ -1,0 +1,33 @@
+package com.test.java;
+
+public class Homework {
+
+	public static void main(String[] args) {
+		int lion = 35;
+		int tiger = 40;
+		int dog = 32;
+		float averageSpeed;
+		averageSpeed = (lion + tiger + dog)/3;
+				
+
+			
+			System.err.println("세마리의 평균 속도는 "+ averageSpeed + "km/h입니다");
+
+	float univScore = 4.5F;
+		int studentA = 3;
+		float studentB = 3.62F;
+		float studentC = 3.81F;
+		
+		float averageScore = (studentA + studentB + studentC)/3;
+		
+		System.out.println("학점 총점은" + univScore + "이며 세명의 학생 평균 학점은" + averageScore + "입니다.");
+	
+	
+		
+	
+	
+	
+	
+	
+	}
+}
