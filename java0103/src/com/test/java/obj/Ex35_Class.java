@@ -4,13 +4,13 @@ public class Ex35_Class {
 	public static void main(String[] args) {
 
 		// 부장
-		Employee e1 = new Employee();
+		Employee1 e1 = new Employee1();
 
 		e1.setName("홍길동");
 		e1.setDepartment("영업부");
 
 		// 과장
-		Employee e2 = new Employee();
+		Employee1 e2 = new Employee1();
 
 		e2.setName("아무개");
 		e2.setDepartment("영업부");

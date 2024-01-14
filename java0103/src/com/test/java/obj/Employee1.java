@@ -1,6 +1,6 @@
 package com.test.java.obj;
 //직원,사원 클래스 
-public class Employee {
+public class Employee1 {
 
 	private String name; //직원명
 	private String department; //부서명
@@ -11,7 +11,7 @@ public class Employee {
 //	private String sname;
 //	private String sdepartment;
 
-	private Employee superior;
+	private Employee1 superior;
 	
 	public String getName() {
 		return name;
@@ -25,10 +25,10 @@ public class Employee {
 	public void setDepartment(String department) {
 		this.department = department;
 	}
-	public Employee getSuperior() {
+	public Employee1 getSuperior() {
 		return superior;
 	}
-	public void setSuperior(Employee superior) {
+	public void setSuperior(Employee1 superior) {
 		this.superior = superior;
 	}
 	
