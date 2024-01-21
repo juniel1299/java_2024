@@ -40,7 +40,6 @@ public class Ex18_Method {
 		// 요구사항) *****
 		// 기본선
 		drawLine();
-		System.out.println("  성적표");
 		drawLine();
 		drawLine("+");
 		System.out.println("");

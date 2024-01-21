@@ -29,8 +29,8 @@ public class Ex19_Method {
 		
 		//m3 메서드 만들기
 		//m3(n); 후 ctrl + 1 누르면 create 나옴 
-		m3(n);
-		result = m4(n);	
+		//m3(n);
+		//result = m4(n);	
 		
 		
 		
@@ -38,17 +38,17 @@ public class Ex19_Method {
 
 
 
-	private static int m4(int n) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-
-
-	private static void m3(int n) {
-		// TODO Auto-generated method stub
-		
-	}
+//	private static int m4(int n) {
+//		// TODO Auto-generated method stub
+//		return 0;
+//	}
+//
+//
+//
+//	private static void m3(int n) {
+//		// TODO Auto-generated method stub
+//		
+//	}
 
 
 
@@ -70,7 +70,7 @@ public class Ex19_Method {
 		
 		return (n == 1) ? 1 : n * factorial(n-1);
 	}
-	
+	 
 	public static void m1() { //재귀 메서드 
 		
 		System.out.println("메서드1");

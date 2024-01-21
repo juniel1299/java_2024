@@ -44,8 +44,8 @@ public static void main(String[] args) throws IOException {
 	//m2();
 
 	
-	//m3();
-	m4();
+	m3();
+	//m4();
 	
 	 
 	

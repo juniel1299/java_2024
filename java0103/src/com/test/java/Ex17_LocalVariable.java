@@ -1,9 +1,9 @@
 package com.test.java;
-/*
-public class Ex17_LocalVariable {
 
-	int b = 20; // 멤버 변수 (메서드 작성하는 위치에 작성할 수 있음 , 클래스의 자식 , 클래스 전체에서 쓰는 변수)
+public  class Ex17_LocalVariable {
 
+	static int b = 10; // 멤버 변수 (메서드작성하는 위치에 작성할 수 있음 , 클래스의 자식 , 클래스 전체에서 쓰는 변수)
+ 
 	public static void main(String[] args) {
 		// Ex17_LocalVariable
 
@@ -23,21 +23,29 @@ public class Ex17_LocalVariable {
 			// 소멸 > 변수 선언문이 포함된 블럭을 빠져나갈 때
 		// main 메서드 변수는 소멸이 늦음 > 메모리량 증가 
 		int a = 10; // 지역 변수
-		
+		int c = 50;
 		int num=100;
 		checkNumber(num); 
-		/*
+		bbb();
 		
 		aaa();
 	}//main 
 
 	public static void aaa() {
 		int a = 10;
-		bbb();
+		//bbb();
 	}
 	
 	public static void bbb() {
-		System.out.println(a);
+		if(b>5) {
+			System.out.println("a는 5보다 큽니다");
+		}
+		b = 20;
+		if(b>19) {
+			System.out.println("b는 19보다 큽니다");
+		}else {
+			System.out.println("b는 19보다 작습니다");
+		}
 	}
 	public static void checkNumber (int num) {
 		//int num; 매개변수도 지역변수에 들어감.  
@@ -53,4 +61,4 @@ public class Ex17_LocalVariable {
 
 }
 
- */
+ 

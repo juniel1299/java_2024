@@ -35,11 +35,11 @@ public class Ex21_if {
 		// 1. 알고리즘 > 흐름 > 제어문
 		// 2. 자료구조 > 퀵 , 스택 , (버블)정렬, 트리, 등등
 
-		// m1();
+		m1();
 		// m2();
 		// m3();
 		// m4();
-		m5();
+		//m5();
 	}// main
 
 	private static void m5() throws NumberFormatException, IOException {
