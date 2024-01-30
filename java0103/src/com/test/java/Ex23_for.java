@@ -22,11 +22,11 @@ public class Ex23_for {
 		//m6();
 		//m7();
 		//m8();
-		//m9();
+		m9();
 		//m10();
 		//m11();
 		//m12();
-		m13();
+		//m13();
 
 		/*
 		 * hello(); hello(); hello(); hello(); hello();

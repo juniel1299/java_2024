@@ -12,8 +12,8 @@ public class Ex27_Array {
 		// -데이터 집합 > 변수들을 모아놓은 집합
 		// 같은 자료형을 저장하는 데이터의 집합
 		// m1();
-		// m2();
-		// m3();
+		 //m2();
+		 //m3();
 		// m4();
 		// m5();
 		// m6();
@@ -24,13 +24,13 @@ public class Ex27_Array {
 		// m11();
 		// m12();
 		// m13();
-		//m14();
+		m14();
 		//m15();
 		//m16();
 		//m17();
 		//m18();
 		//m19();
-		m20();
+		//m20();
 	}// main
 
 	private static void m20() { //2차원 배열 문제
@@ -484,7 +484,8 @@ public class Ex27_Array {
 		nums[2] = 30;
 
 		int[] copy = new int[3]; // 공간을 분리해서 만들면 실제 배열을 복사하여 얕은 복사와 달리 side effect 발생하지 않음
-
+		
+		
 		for (int i = 0; i < nums.length; i++) {
 
 			// 방과 방끼리의 복사 . 요소끼리의 복사

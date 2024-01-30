@@ -43,9 +43,24 @@ public class Ex25_while {
 		//m1();
 		//m2();
 		//m3();
-		m4();
-		
+		//m4();
+		m5();
 	}//main
+
+	private static void m5() {
+	// TODO Auto-generated method stub
+		int n = 1;
+
+		while(true) {
+		if(n==10){
+		break;
+		}
+		System.out.println(n);
+
+		n++;
+
+		}
+}
 
 	private static void m4() {
 	// TODO Auto-generated method stub
@@ -160,8 +175,15 @@ public class Ex25_while {
 			
 		}
 		
+		int i = 0;
 		for(;;) {
-			System.out.println("무한 루프");
+			if( i==5) {
+				break;
+			}
+			System.out.println(i);
+			
+			i++;
+			
 		}
 		
 		/*
